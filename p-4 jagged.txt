@@ -1,0 +1,45 @@
+using System;
+					
+public class Program
+{
+	public static void Main()
+	{
+		string[][] Members = new string[2][]
+		{
+			new string[]{ "sam","Alex"},
+			new string[]{ "peter","Rahul","sunny"}
+		};
+		for(int i=0;i<Members.Length;i++)
+		{
+			for(int j=0;i<Members[i].Length;j++)
+			{
+				Console.Write(Members[i][j] + "\t");
+			}
+			Console.WriteLine();
+		}
+		Console.ReadLine();
+			
+	}
+}using System;
+					
+public class Program
+{
+	public static void Main()
+	{
+		string[][] Members = new string[2][]
+		{
+			new string[]{ "sam","Alex"},
+			new string[]{ "peter","Rahul","sunny"}
+		};
+		for(int i=0;i<Members.Length;i++)
+		{
+			for(int j=0;i<Members[i].Length;j++)
+			{
+				Console.Write(Members[i][j] + "\t");
+			}
+			Console.WriteLine();
+		}
+		Console.ReadLine();
+			
+	}
+}
